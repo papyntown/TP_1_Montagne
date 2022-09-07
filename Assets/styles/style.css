@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+}
+
+@font-face {
+  font-family: "font-1";
+  src: url(../fonts/merriweather-light_[allfont.net].ttf);
+}
+@font-face {
+  font-family: "font-2";
+  src: url(../fonts/Inter\ ExtraBold.ttf);
+}
+body {
+  background: url("../images/bg.jpg") center/cover fixed;
+  height: 100vh;
+}
+
+header {
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+header .contain-top-part {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  height: 100%;
+}
+header h1 {
+  font-family: "font-2";
+  color: whitesmoke;
+  font-size: 5rem;
+  width: 60%;
+  margin: auto;
+  text-transform: uppercase;
+}
+header h2 {
+  font-family: "font-1";
+  color: white;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-style: italic;
+  margin: 70px 0px;
+}
+header p {
+  font-size: 4rem;
+}
+
+nav {
+  position: absolute;
+  bottom: 0%;
+  display: flex;
+  width: 100%;
+  background-color: rgba(243, 243, 243, 0.337254902);
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav-li {
+  background-color: #f3f3f3;
+  height: 100%;
+}
+nav .nav-left {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  text-transform: uppercase;
+}
+nav .nav-left li {
+  padding: 20px;
+  font-family: "font-2";
+  font-size: 0.7rem;
+  color: white;
+}
+nav .nav-left li:nth-child(1) {
+  background-color: white;
+  color: black;
+}
+nav .nav-left #li-1:hover {
+  background-color: white;
+  color: black;
+}
+nav .nav-left #li-2:hover {
+  background-color: white;
+  color: black;
+}
+nav .nav-left #li-3:hover {
+  background-color: white;
+  color: black;
+}
+nav .nav-right {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  color: white;
+  margin-right: 20px;
+}
+
+.page {
+  background-color: white;
+}/*# sourceMappingURL=style.css.map */
