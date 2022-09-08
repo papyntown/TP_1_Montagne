@@ -4,7 +4,7 @@ nav{
     display: flex;
     width: 100%;
     background-color: #f3f3f356;
-    justify-content: left;
+    justify-content: space-between;
     align-items: center;
     
     
@@ -15,7 +15,7 @@ nav{
     }
     .nav-left{
         display: flex;
-        justify-content: space-between;
+        justify-content: left;
         width: 45%;
         text-transform: uppercase;
         li{
