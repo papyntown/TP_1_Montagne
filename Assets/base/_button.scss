@@ -1,0 +1,16 @@
+button{
+    cursor:pointer;
+    margin: 20px 0px;
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 2px solid black;
+    transition: 0.6s;
+    font-weight: 700;
+    color: black;
+    &:hover{
+        background-color: rgba(245, 222, 179, 0.402);
+        color: black;
+        font-size: 1.1rem;
+        border: 1px solid rgba(0, 0, 0, 0.445);
+    }
+}

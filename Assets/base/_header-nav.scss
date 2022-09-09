@@ -49,5 +49,11 @@ nav{
         width: 15%;
         color: white;
         margin-right: 20px;
+        .fa-brands{
+            color: white;
+            &:hover{
+                color: wheat;
+            }
+        }
     }
 }

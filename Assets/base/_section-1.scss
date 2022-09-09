@@ -1,3 +1,53 @@
 .page{
     background-color: white;
+    .section-1{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        position: relative;
+        h3{
+            font-family: "font-1";
+            padding:  40px 20px;
+            &::after{
+                content: "";
+                position: absolute;
+                border-top: 3px solid wheat;
+                width: 38%;
+                left: 0px;
+                margin-top: 8px;
+            }
+            &::before{
+                content: "";
+                position: absolute;
+                border-top: 3px solid wheat;
+                width: 38%;
+                right: 0px;
+                margin-top: 8px;
+            }
+        }
+        .less-width{
+            width: 70%;
+            margin: 20px auto;
+            h2{
+                font-size: 3.8rem;
+                text-transform: uppercase;
+                font-family: "font-2";
+                margin-bottom: 40px;
+                letter-spacing: 2px;
+            }
+            p{
+                font-family: "font-1";
+                line-height: 1.7rem;
+                letter-spacing: 1px;
+                font-size: 0.8rem;
+            }
+        }
+        .img-saut{
+            background: url("./../images/pic01.jpg") center/cover ;
+            height: 600px;
+            width: 100%;
+        }
+        
+
+    }
 }

@@ -17,6 +17,23 @@ body {
   font-family: "font-2";
   src: url(../fonts/Inter\ ExtraBold.ttf);
 }
+button {
+  cursor: pointer;
+  margin: 20px 0px;
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 2px solid black;
+  transition: 0.6s;
+  font-weight: 700;
+  color: black;
+}
+button:hover {
+  background-color: rgba(245, 222, 179, 0.402);
+  color: black;
+  font-size: 1.1rem;
+  border: 1px solid rgba(0, 0, 0, 0.445);
+}
+
 body {
   background: url("../images/bg.jpg") center/cover fixed;
   height: 100vh;
@@ -102,7 +119,61 @@ nav .nav-right {
   color: white;
   margin-right: 20px;
 }
+nav .nav-right .fa-brands {
+  color: white;
+}
+nav .nav-right .fa-brands:hover {
+  color: wheat;
+}
 
 .page {
   background-color: white;
+}
+.page .section-1 {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+.page .section-1 h3 {
+  font-family: "font-1";
+  padding: 40px 20px;
+}
+.page .section-1 h3::after {
+  content: "";
+  position: absolute;
+  border-top: 3px solid wheat;
+  width: 38%;
+  left: 0px;
+  margin-top: 8px;
+}
+.page .section-1 h3::before {
+  content: "";
+  position: absolute;
+  border-top: 3px solid wheat;
+  width: 38%;
+  right: 0px;
+  margin-top: 8px;
+}
+.page .section-1 .less-width {
+  width: 70%;
+  margin: 20px auto;
+}
+.page .section-1 .less-width h2 {
+  font-size: 3.8rem;
+  text-transform: uppercase;
+  font-family: "font-2";
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+.page .section-1 .less-width p {
+  font-family: "font-1";
+  line-height: 1.7rem;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+.page .section-1 .img-saut {
+  background: url("./../images/pic01.jpg") center/cover;
+  height: 600px;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
