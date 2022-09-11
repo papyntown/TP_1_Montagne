@@ -1,0 +1,53 @@
+.section-2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-top: 2px  solid #eaeaea ;
+    h4{
+        margin-top: 50px;
+        margin-bottom: 30px;
+        font-family: "font-1";
+        font-size: 0.8rem;
+    }
+    h5{
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        width: 54%;
+        margin: auto;
+        font-family: "font-2";
+        line-height: 2rem;
+    }
+    .legende{
+        text-align: left;
+        line-height: 1.5rem;
+    }
+    .left-part{
+        border-right: 2px solid #eaeaea;
+        width: 50%;
+        .left-part-contain{
+            width: 80%;
+            margin: auto;
+            .img-left-part{
+                background: url("../images/pic02.jpg");
+                height: 320px;
+                margin: 20PX 0PX 25PX 0px;
+            }
+        }
+    }
+    .right-part{
+        
+        width: 50%;
+        .right-part-contain{
+            width: 80%;
+            margin: auto;
+            .img-right-part{
+            background: url("../images/pic03.jpg");
+            height: 320px;
+            margin: 20PX 0PX 25PX 0px;
+
+            }
+
+            
+        }
+    }
+}
